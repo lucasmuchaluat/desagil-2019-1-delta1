@@ -30,7 +30,7 @@ public class CpuPlayer extends Player {
 }
 
 
-                            void move() {
+                            public void move() {
         if (!stack.isEmpty()) {
                         if (row > 0 && !visited[row - 1][col]) {
                         move(-1, 0);
